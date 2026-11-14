@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.user
+RdpSwitcher/Interop/*.dll
+RdpSwitcher/Interop/*.pdb
+COMMIT_MSG.txt
+dist/

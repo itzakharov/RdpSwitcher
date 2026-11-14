@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "panel": {
+    "edge": "top",
+    "size": 44,
+    "triggerZone": 4,
+    "showDelayMs": 150,
+    "hideDelayMs": 600,
+    "opacity": 0.95
+  },
+  "hotkeys": {
+    "next": "Ctrl+Alt+Right",
+    "prev": "Ctrl+Alt+Left",
+    "jumpModifier": "Ctrl+Alt",
+    "togglePanelPin": "Ctrl+Alt+Home",
+    "leaveFullscreen": "Ctrl+Alt+End"
+  },
+  "connections": [
+    {
+      "id": "b4f1c0de-0000-0000-0000-000000000001",
+      "name": "Client A / build VM",
+      "host": "192.168.56.10",
+      "port": 3389,
+      "user": "DOMAIN\\admin",
+      "group": "Client A",
+      "color": "#4C9AFF",
+      "autoConnect": true
+    },
+    {
+      "id": "b4f1c0de-0000-0000-0000-000000000002",
+      "name": "Client A / test VM",
+      "host": "192.168.56.11",
+      "port": 3389,
+      "user": "DOMAIN\\admin",
+      "group": "Client A",
+      "color": "#4C9AFF",
+      "autoConnect": true
+    },
+    {
+      "id": "b4f1c0de-0000-0000-0000-000000000003",
+      "name": "Client B / dev VM",
+      "host": "192.168.56.20",
+      "port": 3389,
+      "user": "admin",
+      "group": "Client B",
+      "color": "#36B37E",
+      "autoConnect": false
+    }
+  ]
+}

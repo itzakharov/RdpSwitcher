@@ -1,0 +1,15 @@
+# Text files are stored with LF in the repository; the working tree follows the platform.
+* text=auto
+
+# Windows tooling is sensitive to line endings: always CRLF in the working tree.
+*.sln  text eol=crlf
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# Never normalize binaries.
+*.png  binary
+*.ico  binary
+*.dll  binary
+*.exe  binary
+*.zip  binary
