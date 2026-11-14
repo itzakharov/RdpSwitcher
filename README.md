@@ -14,6 +14,12 @@ The RDP engine is the built-in Windows COM component `mstscax.dll` (`AxMsRdpClie
 
 Non-goals: multi-monitor, password storage, cross-platform support, RD Gateway.
 
+## Download
+
+Grab the latest portable build from the [Releases](../../releases) page, extract the archive and run `RdpSwitcher.exe`. Windows 10/11 with .NET Framework 4.8 is required.
+
+The executable is not code-signed, so Windows SmartScreen may show "Windows protected your PC". Click **More info**, then **Run anyway**. Alternatively, unblock the archive before extracting it: right-click the zip, **Properties**, tick **Unblock**, **OK**.
+
 ## Build
 
 Requirements:

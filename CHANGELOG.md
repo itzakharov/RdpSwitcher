@@ -22,5 +22,5 @@ First public release.
 ### Requirements
 
 - Windows 10 or 11 and .NET Framework 4.8.
-- To run the portable build: extract the archive and start `RdpSwitcher.exe`.
+- To run the portable build: extract the archive and start `RdpSwitcher.exe`. The executable is not code-signed, so Windows SmartScreen may warn: click **More info**, then **Run anyway**, or unblock the zip (Properties, Unblock) before extracting.
 - To build from source: see the README (COM interop is generated with `tools\gen-interop.cmd`).
